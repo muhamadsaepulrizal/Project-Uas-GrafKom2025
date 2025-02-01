@@ -168,7 +168,7 @@ void keyboard(unsigned char key, int x, int y) {
         case 'j': cameraX -= 0.5f; break; // Geser kamera ke kiri
         case 'k': cameraX += 0.5f; break; // Geser kamera ke kanan
         case 'v': cameraZ += 0.5f; break; // Dekatkan kamera
-        case 'b': cameraZ -= 0.5f; break; // Jauhkan kamera
+        case 'b': cameraZ -= 0.5f; break; // Jauhkan kameraa
         case 27: // Tombol Esc untuk keluar
             exit(0);
             break;
